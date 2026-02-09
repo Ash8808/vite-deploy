@@ -1,10 +1,19 @@
 /* Basic project stylesheet */
-html, body {
-  height: 100%;
+body {
   margin: 0;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  background: repeating-linear-gradient(135deg,#bb5321 0px 40px, #ed7a30 40px 0px);
-  color: #111827;
+  background: #000000;
+}
+
+#main-container {
+  display: flex;
+  box-sizing: border-box;
+  background: repeating-linear-gradient(135deg, #0f172a 0px 40px, #374151 40px 80px);
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
 h1 { color: #0f172a; margin-bottom: 0.25rem; }
