@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  background: #f7f7fb;
+  background: repeating-linear-gradient(135deg,#bb5321 0px 40px, #ed7a30 40px 0px);
   color: #111827;
 }
 
