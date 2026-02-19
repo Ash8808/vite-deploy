@@ -12,12 +12,32 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
 }
 
 h1 { color: #2bff00; }
 h2 { color: #2bff00; }
 
-/* Utility */
-.container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+
+/* 10x10 grid styles */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: min(720px, 90vw);
+  margin: 1rem auto;
+}
+
+.cell {
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.12);
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  user-select: none;
+  display: block;
+}
+
+.cell.black {
+  background: #000000;
+}
+
