@@ -13,7 +13,7 @@ console.log('assets/js/main.js loaded');
 		cell.setAttribute('tabindex', '0');
 		// Toggle on click
 		cell.addEventListener('click', () => cell.classList.toggle('black'));
-		// Keyboard support (Enter / Space)
+\
 
 		grid.appendChild(cell);
 	}
