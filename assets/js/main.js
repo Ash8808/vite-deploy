@@ -13,7 +13,7 @@ console.log('assets/js/main.js loaded');
 		cell.setAttribute('tabindex', '0');
 		// Toggle on click
 		cell.addEventListener('click', () => cell.classList.toggle('black'));
-\
+
 
 		grid.appendChild(cell);
 	}
