@@ -19,6 +19,13 @@ body {
 h1 { color: #2bff00; }
 h2 { color: #2bff00; }
 
+.container {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: min(720px, 90vw);
+}
 
 /* 10x10 grid styles */
 #grid {
